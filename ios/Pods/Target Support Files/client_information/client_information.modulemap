@@ -1,6 +1,0 @@
-framework module client_information {
-  umbrella header "client_information-umbrella.h"
-
-  export *
-  module * { export * }
-}

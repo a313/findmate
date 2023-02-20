@@ -1,0 +1,44 @@
+name: findmate
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  client_information: ^2.0.3
+  dotted_border: ^2.0.0+2
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.1
+  fluttertoast: ^8.2.1
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  intl: ^0.18.0
+  json_annotation: ^4.5.0
+  package_info: ^2.0.2
+  permission_handler: ^10.2.0
+  pinput: ^2.2.30
+  swipe_cards: ^2.0.0+1
+  url_launcher: ^6.1.9
+
+dev_dependencies:
+  build_runner: ^2.1.10
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.1.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/onBoarding/
+    - assets/images/login/
+    - assets/images/login/interests/
+    - assets/images/home/bottombar/
+    - assets/images/home/
+    - assets/images/like/
+    - assets/images/chat/
+    - assets/images/profile/
