@@ -1,4 +1,6 @@
 import 'package:findmate/modules/auth/trouble_login/account_recovery_screen.dart';
+import 'package:findmate/modules/bottomScreen/home/bottomNavigation/bottom_navigation_screen.dart';
+import 'package:findmate/modules/bottomScreen/home/home_screen.dart';
 import 'package:findmate/x_res/res.dart';
 import 'package:findmate/x_utils/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -121,7 +123,9 @@ class LogInOptionScreen extends StatelessWidget {
             height: 18,
           ),
           LoginCommonButtons(
-            onTap: () {},
+            onTap: () {
+              Get.to(BottomNavigation());
+            },
             image: ImageConst.phoneSvg,
             title: "Login With Phone",
           ),
