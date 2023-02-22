@@ -78,7 +78,9 @@ class LogInOptionScreen extends StatelessWidget {
             height: 52,
           ),
           LoginCommonButtons(
-            onTap: () {},
+            onTap: () {
+              Get.to(BottomNavigation());
+            },
             image: ImageConst.googleSvg,
             title: "Login With Google",
           ),
@@ -88,7 +90,9 @@ class LogInOptionScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24),
             child: MaterialButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(BottomNavigation());
+              },
               height: 61,
               minWidth: Get.width,
               shape: RoundedRectangleBorder(
